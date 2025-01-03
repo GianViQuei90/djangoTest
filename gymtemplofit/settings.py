@@ -79,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'templofitAdmin',
-        'USER': 'djangouser',
-        'PASSWORD': 'User2025**',
-        'HOST': '172.31.83.114',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
         'PORT': '3306'
     }
 }
