@@ -15,7 +15,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-cy)xk6@c!xt%hlbhhu^=c!m#$^fw_-wjzxxrz1p%k45!d!3=(%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'templofitAdmin',
         'USER': 'djangouser',
         'PASSWORD': 'User2025**',
-        'HOST': '44.203.72.135',
+        'HOST': '172.31.83.114',
         'PORT': '3306'
     }
 }
