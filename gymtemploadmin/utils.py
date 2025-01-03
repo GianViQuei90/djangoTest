@@ -37,9 +37,9 @@ def generar_comprobante(modeladmin, request, queryset):
         payload = venta.generar_payload()
         print(payload)
         # Enviar a la API
-        url = "https://api.nubefact.com/api/v1/4702623e-dc9c-47b1-bd5d-763ee76ce747"
+        url = ""
         headers = {
-        'Authorization': '6adca5c4f270425eb126ef74353a3b75a157bb98b6cf4dcf8f48f6868743964b',
+        'Authorization': '',
         'Content-Type': 'application/json'
         }
         try:
